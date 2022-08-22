@@ -2,8 +2,10 @@ import { useState } from 'react'
 import { create as ipfsHttpClient } from "ipfs-http-client";
 import './App.css';
 
-const projectId = '2DOJC0wv4QSFUWiDOw8ChpQBySv'
-const projectSecretKey = '7335853015c063ff24bc539f8600baa0'
+// insert your infura project crediental you can find 
+// easily these your infura account in API key management section
+const projectId = ""
+const projectSecretKey = ""
 const authorization = "Basic " + btoa(projectId + ":" + projectSecretKey);
 
 function App() {
